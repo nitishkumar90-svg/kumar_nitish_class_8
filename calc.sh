@@ -58,35 +58,35 @@ while true; do
   echo "5 - Exit"
   read value
 case $value in
-1)
+1) #Addition
   echo "Provide 1st value"
   read value1
   echo "Provide 2nd value"
   read value2
   Add $value1 $value2
 ;;
-2)
+2) #Subtraction
   echo "Provide 1st Value"
   read value1
   echo "Provide 2nd Value"
   read value2
   Subtract $value1 $value2
 ;;
-3)
+3) #Multiplication
   echo "Provide 1st Value"
   read value1
   echo "Provide 2nd Value"
   read value2
   Multiplication $value1 $value2
 ;;
-4)
+4) #Division
   echo "Provide 1st Value"
   read value1
   echo "Provide 2nd Value"
   read value2
   Division $value1 $value2
 ;;
-5)
+5) #Exit
   exitCustom
 ;;
 *)
